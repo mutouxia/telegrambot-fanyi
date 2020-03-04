@@ -1,6 +1,7 @@
-# telegrambot-fanyi
-电报(telegram)翻译机器人 
+# 电报(telegram)翻译机器人 
+
 群组https://t.me/fanyitest
+
 机器人id: @fanxiaoyi
 
 1.首次安装请按照一下规则手动访问一次链接！
@@ -20,16 +21,25 @@ ok大功告成。
 
 目录介绍
 
-/control/            
+/control/   
+
 /control/function.php       ****核心文件
+
 /control/private.php        ****私聊
+
 /control/private_cmd.php    ****私聊命令
+
 /control/supergroup.php     ****群聊
+
 
 
 /data/
 /data/log/                ****网站日志，每天生成一个文件请及时清理
+
 /data/user/               ****存储用户默认语言
 
+
 /config.php          ****核心设置
+
 /index.php           **** 首页
+
