@@ -49,13 +49,13 @@ if (isset($_GET['token'])) {
                 $user_lang = str_replace('翻译', "", $text);
                 $user_lang = strtolower(trim($user_lang));
                 if ($language[$user_lang]) {
-                    $user_lang = $to = $language[$user_lang];
+                    $lang = $to = $language[$user_lang];
                 }
             }
         } 
 		if ($language[$text] AND $user_cmd != '/') {
             //直接语言回复模式
-            $user_lang = $to = $language[$text];
+            $lang = $to = $language[$text];
         }
         include ROOT_PATH . '/control/' . $type . '.php';
     }
