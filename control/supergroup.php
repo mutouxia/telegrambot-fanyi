@@ -4,7 +4,7 @@
 if(!is_null($reply_to_message)){
 	
 	//群组回复
-	if($user_lang){
+	if($lang){
 		$reply_text=explode("\n @", $reply_text);//去除已经翻译后At的人
 					
 		$fanyi=fanyi($reply_text['0'],$to);//翻译结果
